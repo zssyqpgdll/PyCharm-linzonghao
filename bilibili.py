@@ -15,6 +15,7 @@ def wtext(soup,flag):
         file.close()
 
 def main():
+    print("Pycharm Git")
     flag=['totalrank','click','dm','stow']
     keyword=input("请输入关键词:")
     url="https://search.bilibili.com/all?keyword="+keyword
